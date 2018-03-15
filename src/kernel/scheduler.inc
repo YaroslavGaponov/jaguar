@@ -1,0 +1,9 @@
+
+TASK_RUNNING        = 0
+TASK_INTERRUPIBLE   = 1	
+TASK_UNINTERRUPIBLE = 2
+TASK_ZOMBIE         = 4
+TASK_STOPPED        = 8
+
+_scheduler:
+	ret
